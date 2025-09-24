@@ -1,14 +1,16 @@
 # ADA Australia Website
 
-A modern, responsive website for ADA Australia built with Next.js, Tailwind CSS, and shadcn/ui components.
+A modern, mobile-optimized website for ADA Australia built with Next.js, Tailwind CSS, and shadcn/ui components.
 
 ## Features
 
 - **Modern Design**: Clean, professional design with Tailwind CSS
-- **Responsive**: Mobile-first responsive design
-- **Component Library**: Built with shadcn/ui components
-- **Performance**: Optimized for speed and SEO
+- **Mobile-First**: Fully optimized for mobile phones and tablets
+- **Responsive Navigation**: Collapsible mobile menu with smooth animations
+- **Touch-Friendly**: Optimized tap targets and mobile interactions
+- **Performance**: Fast loading and optimized for mobile networks
 - **Accessibility**: Built with accessibility best practices
+- **SEO Optimized**: Proper mobile viewport and meta tags
 
 ## Tech Stack
 
@@ -70,6 +72,18 @@ This project is configured for easy deployment on Vercel:
 ├── public/               # Static assets
 └── lib/                  # Utility functions
 ```
+
+## Mobile Optimizations
+
+This website is specifically optimized for mobile devices with:
+
+- **Responsive Header**: Collapsible navigation menu with hamburger icon
+- **Mobile-First Layout**: Hero section and content optimized for small screens
+- **Touch-Friendly Interface**: 44px minimum tap targets for better usability
+- **Optimized Typography**: Better font scaling and line heights for mobile
+- **Safe Area Support**: Proper spacing for devices with notches
+- **Smooth Animations**: Mobile-friendly transitions and interactions
+- **No Horizontal Scroll**: Prevents unwanted scrolling on mobile devices
 
 ## Contributing
 

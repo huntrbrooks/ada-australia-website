@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   title: "ADA Australia - Well Connect App",
   description: "24/7 support in your pocket with the ADA Well Connect App",
   generator: "v0.app",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'ADA Australia',
+  },
+  formatDetection: {
+    telephone: false,
+  },
 }
 
 export default function RootLayout({
